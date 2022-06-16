@@ -48,7 +48,7 @@ elif [ "$Opt" == "4" ]; then
     sudo pacman -Sy
     echo "Download sddm"
     sudo pacman -S sddm
-elif [ "$Opt" == "4" ]; then
+elif [ "$Opt" == "5" ]; then
     echo "Updating..."
     sudo pacman -Sy
     echo "Download everythin kde related"
