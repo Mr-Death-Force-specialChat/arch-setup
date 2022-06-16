@@ -22,6 +22,7 @@ echo "1. Standard (neofetch, cmatrix, vim, sl)"
 echo "2. Devel (base-devel, cmake, code, vim, g++)"
 echo "3. i3 (i3)"
 echo "4. sddm (sddm)"
+echo "5. kde (plasma-meta, kde-applications)"
 
 echo "Select an option: "
 
@@ -47,4 +48,9 @@ elif [ "$Opt" == "4" ]; then
     sudo pacman -Sy
     echo "Download sddm"
     sudo pacman -S sddm
+elif [ "$Opt" == "4" ]; then
+    echo "Updating..."
+    sudo pacman -Sy
+    echo "Download everythin kde related"
+    sudo pacman -S plasma-meta kde-applications
 fi
