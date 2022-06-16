@@ -6,6 +6,7 @@ it also will update the databases
 2. `Devel installs development packages` `base-devel, cmake, code, vim, g++`
 3. `i3 installs i3(-gaps)` `i3(-gaps)`
 4. `sddm installs sddm` `sddm`
+5. `kde installs kde stuff` `plasma-meta, kde-applications`
 # How-to
 ``` sh
 chmod u+x setup.sh
