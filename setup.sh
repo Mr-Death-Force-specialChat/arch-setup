@@ -19,7 +19,7 @@ echo "source:           https://github.com/Mr-Death-Force-specialChat/arch-setup
 echo "description: \"A tool to quickly setup archlinux\""
 
 echo "1. Standard (neofetch, cmatrix, vim, sl)"
-echo "2. Devel (base-devel, cmake, code, vim, g++)"
+echo "2. Devel (base-devel, cmake, code, vim)"
 echo "3. i3 (i3)"
 echo "4. sddm (sddm)"
 echo "5. kde (plasma-meta, kde-applications)"
@@ -37,7 +37,7 @@ elif [ "$Opt" == "2" ]; then
     echo "Updating..."
     sudo pacman -Sy
     echo "Download Devel packages"
-    sudo pacman -S base-devel cmake code vim g++
+    sudo pacman -S base-devel cmake code vim
 elif [ "$Opt" == "3" ]; then
     echo "Updating..."
     sudo pacman -Sy
